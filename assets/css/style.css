@@ -15,11 +15,24 @@ body {
 .heading {
     text-align: center;
     font-size: 2.5rem;
-    color: blanchedalmond;    
+    color: #F08080; 
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 2;
 }
 
 .logo{
     text-align: center;
     margin-top: 75px;
 }
-    
+
+
+.about-quiz {
+    text-align: center;
+    line-height: 1;
+    font-size: 1.5em;
+    color: skyblue;
+    font-style: bold;
+    line-height: 1;
+
+}

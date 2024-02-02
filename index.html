@@ -19,13 +19,39 @@
     <h1 class="heading">Indian Cinema Quiz
         </h1>
 
-        <div class="game-area" >
-
+    <!-- Main Area of the Page containing Quiz description and rules and receiving 
+            name and difficulty level as input -->
+    <div class="main-area">
+        <div class="about-quiz">
+            <p>
+                This Quiz is just for fun and let you discover how much you know about Indian Cenima.
+                <br><br>
+                One of the oldest and most diverse ilm industries, the Indian film cinema has never 
+                <br><br>
+                failed to surprise us with masterpieces, and first, in 1913, an Indian film received a 
+                <br><br>
+                public screening.Raja ndra's Dadasaheb Phalke who was awarded the lifetime achievement 
+                <br><br>
+                award, bestowed to the film industry itsf first gem.
+                <br><br>
+                The growth and expansion of Indian cinema began to emerge in the early 1930s,With its most 
+                <br><br>
+                successful film Devdas released in 935, its director, P.C. Barua also appeared in the lead role.
+                <br><br>
+                Among many others, it was the Marathi movie, Damle and Fatehlal's Sant Tukaram, 
+                <br><br>
+                released in 1936, the first Indian film to gain international recognition.
+                <br><br>
+                Take this quiz and find out how much you know!
+            </p><br>
         </div>
-        <div class="score-area" >
-            <p class="scores">Correct Answers<span id ="score"> 0 </span></p>
-            <p class="scores">Incorrect Answers<span id="incorrect"> 0 </span></p>
-        </div>
+    <div class="your-name">
+    <form id="username" action="quiz.html" method="GET">
+        <label for="yname">Name</label>
+        <input type="text" id="yname" name="yname" pattern="^[a-zA-Z]+( [a-zA-Z]+)*$" required><br><br>
+        <input type="submit" id="startquiz" value="Start Quiz">
+    </form>
+</div>
        <script src="assets/js/script.js"></script>
 </body>
 </html>
