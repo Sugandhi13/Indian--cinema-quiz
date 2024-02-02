@@ -30,9 +30,50 @@ body {
 .about-quiz {
     text-align: center;
     line-height: 1;
-    font-size: 1.5em;
-    color: skyblue;
-    font-style: bold;
+    font-size: 1.2em;
+    color: #00FFFF;
+    font-style: italic;
     line-height: 1;
+}
 
+label {
+    font-size: 1.3em;
+    color: #FFA500;
+    font-family: system-ui,
+        Arial,
+        sans-serif;
+    font-weight: bold;
+    padding: 0em 1em;
+    text-align: center;
+    
+}
+
+#yname {
+    font-size: 1.2em;
+    border: 1px dotted black;
+    border-radius: 4px;
+    text-align: center;
+    }
+
+
+#startquiz {
+    font-family: system-ui,
+        Arial,
+        sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #F08080;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 0.5em 4em;
+    margin-left: 2em;
+    text-align: center;
+}
+
+#startquiz:hover {
+    color: yellow;
+    background-color: blueviolet;
+    border: 1px solid antiquewhite;
+    
 }
