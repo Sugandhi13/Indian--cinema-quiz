@@ -8,20 +8,22 @@ body {
     background-image: url("../images/pic3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     height: 100%;
-
+    width: 100%;
 }
 
 .heading {
     text-align: center;
     font-size: 2.5rem;
-    color: #F08080; 
+    color: #F08080;
     text-transform: uppercase;
     text-decoration: underline;
     line-height: 2;
 }
 
-.logo{
+.logo {
     text-align: center;
     margin-top: 75px;
 }
@@ -45,7 +47,7 @@ label {
     font-weight: bold;
     padding: 0em 1em;
     text-align: center;
-    
+
 }
 
 #yname {
@@ -53,7 +55,7 @@ label {
     border: 1px dotted black;
     border-radius: 4px;
     text-align: center;
-    }
+}
 
 
 #startquiz {
@@ -67,13 +69,198 @@ label {
     border: 1px solid black;
     border-radius: 12px;
     padding: 0.5em 4em;
-    margin-left: 2em;
-    text-align: center;
+    margin-left: 5em;
 }
 
 #startquiz:hover {
     color: yellow;
     background-color: blueviolet;
     border: 1px solid antiquewhite;
-    
+
+}
+
+/* index page css settings */
+
+.main-area {
+    opacity: 0.8;
+    padding: 0.2em 1em 2em 1em;
+    margin: 0em 10em;
+}
+
+
+
+#radiobtn {
+    margin: 0em 2em;
+}
+
+
+
+/* Quiz Page css settings */
+
+#info {
+    padding: 0.5em 0em;
+}
+
+.user-info {
+    margin: 0.2em 0.2em;
+    text-align: center;
+    font-family: system-ui,
+        Arial,
+        sans-serif;
+    font-size: 1.5em;
+    padding: 0em 2em;
+    color: brown;
+    font-weight: bold;
+}
+
+.question-area {
+    font-size: 1.2em;
+    padding: 1em;
+    margin: 0em 1em;
+}
+
+.answer {
+    margin: 0.8em;
+}
+
+/* Final result message page css settings */
+
+#result {
+    margin: 2em;
+    color: brown;
+    font-size: 1.5em;
+}
+
+.btn1 {
+    font-family: system-ui,
+        Arial,
+        sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 0.5em 1em;
+    margin: 1em 2.5em;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    color: yellow;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.btn2 {
+    font-family: system-ui,
+        Arial,
+        sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 0.5em 1em;
+    margin: 1em 2.5em;
+    text-decoration: none;
+}
+
+.btn2:hover {
+    color: yellow;
+    background-color: green;
+    border: 1px solid black;
+}
+
+/* media queries */
+
+/* For larger screens size from 1280px wide */
+
+@media (max-width: 1280px) {
+    .main-area {
+        margin: 0.5em 3em 5em 3em;
+    }
+}
+
+@media (max-width: 540px) {
+    .level {
+        font-size: 1em;
+        padding: 0.5em 0.1em;
+    }
+}
+
+/* For smaller screens size from 480px wide */
+@media (max-width: 480px) {
+
+    header {
+        font-size: 2.5em;
+        padding: 0.5em 0.2em;
+    }
+
+    .main-area {
+        margin: 1em 1em;
+    }
+
+    .welcome-line {
+        font-size: 1em;
+        padding: 0.5em;
+    }
+
+    .about-quiz {
+        font-size: 1em;
+    }
+
+    label {
+        font-size: 1em;
+    }
+
+    #yname {
+        font-size: 1.2em;
+        margin: 0.3em 1em;
+    }
+
+    #easy,
+    #medium,
+    #hard {
+        margin: 0.5em 0.1em;
+    }
+
+    #radiobtn {
+        margin: 0em 1em;
+    }
+
+    .level {
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+
+    #startquiz {
+        font-size: 1em;
+    }
+
+    .user-info {
+        font-size: 1em;
+        text-align: left;
+    }
+
+    .question-area {
+        font-size: 0.8em;
+    }
+
+    .answer {
+        margin: 0.5em 0.1em;
+    }
+
+    #result {
+        margin: 2em;
+        color: brown;
+        font-size: 1em;
+    }
+
+    .btn1,
+    .btn2 {
+        padding: 0.2em;
+    }
+
 }
