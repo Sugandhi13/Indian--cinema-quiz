@@ -104,10 +104,9 @@ let easyQuest = [
 document.addEventListener("DOMContentLoaded", function () {
     const params = new URLSearchParams(window.location.search);
     document.getElementById("hello-area").innerHTML = params.get('yname');
-    document.getElementById("level-area").innerHTML = params.get('level');
     document.getElementById("score-area").innerHTML = score;
     username = params.get('yname');
-    choice = params.get('level');
+    choice = params.get('options');
     runQuiz(choice);
 });
 
