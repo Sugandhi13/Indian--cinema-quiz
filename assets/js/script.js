@@ -19,134 +19,83 @@ let username = null; // Variable to store the username
     and their corresponding possible options */
 let easyQuest = [
     {
-        question: "Which wonder of the world is in India?",
-        opt_a: 'Machu Picchu',
-        opt_b: 'The Colosseum',
-        opt_c: 'Taj Mahal',
-        opt_d: 'The Great Wall',
+        question: "Who got the first Oscar award in India?",
+        opt_a: 'Anil Kapoor',
+        opt_b: 'AR Rahman',
+        opt_c: 'Bhanu Athaiya',
+        opt_d: 'None of these',
         rightAnswer: "opt_c"
     },
     {
-        question: "What is the Capital of India?",
-        opt_a: 'New Delhi',
-        opt_b: 'Mumbai',
-        opt_c: 'Chandigarh',
-        opt_d: 'Bengaluru',
+        question: "Who is known as the Father of Indian cinema?",
+        opt_a: 'Dhundiraj Govind Phalke',
+        opt_b: 'Charan Singh',
+        opt_c: 'Raja Lalith Rai',
+        opt_d: 'Balram Naidu',
         rightAnswer: "opt_a"
     },
     {
-        question: "Which is the national animal of India?",
-        opt_a: 'Loin',
-        opt_b: 'Elephant',
-        opt_c: 'Deer',
-        opt_d: 'Tiger',
-        rightAnswer: 'opt_d'
-    },
-    {
-        question: "Name the national bird of India?",
-        opt_a: 'Eagle',
-        opt_b: 'Peacock',
-        opt_c: 'Sparrow',
-        opt_d: 'Pigeon',
-        rightAnswer: 'opt_b'
-    },
-    {
-        question: "Which festival in India is called the festival of colours?",
-        opt_a: 'Diwali',
-        opt_b: 'Dussehra',
-        opt_c: 'Holi',
-        opt_d: 'Onam',
+        question: "Which is the highest-grossing Indian film ever?",
+        opt_a: 'Bajrangi Bhaijaan',
+        opt_b: 'PK',
+        opt_c: 'Dangal',
+        opt_d: 'None of these',
         rightAnswer: 'opt_c'
     },
-
-];
-
-/* Array consisting a set of 5 medium level difficulty question 
-    and their corresponding possible options */
-let mediumQuest = [
     {
-        question: "Which is the national sport of India?",
-        opt_a: 'Cricket',
-        opt_b: 'Hockey',
-        opt_c: 'Badminton',
-        opt_d: 'Kabaddi',
-        rightAnswer: 'opt_b'
-    },
-    {
-        question: "What is India’s national flower?",
-        opt_a: 'Lotus',
-        opt_b: 'Rose',
-        opt_c: 'Marigold',
-        opt_d: 'Lily',
+        question: "Which actor has won the most national awards in India?",
+        opt_a: 'Shah Rukh Khan',
+        opt_b: 'Amitabh Bachchan',
+        opt_c: 'Aamir Khan',
+        opt_d: 'None of these',
         rightAnswer: 'opt_a'
     },
     {
-        question: "Who was the first person in India to receive the Nobel Prize?",
-        opt_a: 'Har Gobind Khorana',
-        opt_b: 'C V Raman',
-        opt_c: 'Rabindranath Tagore',
-        opt_d: 'Amartya Kumar Sen',
+        question: "Which director has directed the most movies in India?",
+        opt_a: 'Aditya Chopra',
+        opt_b: 'Rohit Shetty',
+        opt_c: 'Rajkumar Hirani',
+        opt_d: 'None of these',
         rightAnswer: 'opt_c'
     },
     {
-        question: "Who was India’s first Prime Minister?",
-        opt_a: 'Gulzarilal Nanda',
-        opt_b: 'Lal Bahadur Shastri',
-        opt_c: 'Morarji Desai',
-        opt_d: 'Jawaharlal Nehru',
-        rightAnswer: 'opt_d'
-    },
-    {
-        question: "Which temple shaped like a chariot is dedicated to the Sun God?",
-        opt_a: 'Badrinath Temple',
-        opt_b: 'Golden Temple',
-        opt_c: 'Sun Temple in Puri',
-        opt_d: 'Akshardham',
-        rightAnswer: 'opt_c'
-    },
-];
-
-/* Array consisting a set of 5 hard level difficulty question 
-    and their corresponding possible options */
-let hardQuest = [
-    {
-        question: "Who was the first to discover India?",
-        opt_a: 'Magellan',
-        opt_b: 'Columbus ',
-        opt_c: 'Vasco da Gama',
-        opt_d: 'John Cabot',
-        rightAnswer: 'opt_c'
-    },
-    {
-        question: "How many languages does the Indian constitution recognise?",
-        opt_a: '26',
-        opt_b: '24',
-        opt_c: '28',
-        opt_d: '22',
-        rightAnswer: 'opt_d'
-    },
-    {
-        question: "Which Indian cricketer won the ‘Padma Bhushan’ in 2018?",
-        opt_a: 'Sunil Gavaskar',
-        opt_b: 'Rahul Dravid',
-        opt_c: 'Sachin Tendulkar',
-        opt_d: 'MS Dhoni',
-        rightAnswer: 'opt_d'
-    },
-    {
-        question: "Who was the first Indian woman to be awarded the Bharat Ratna?",
-        opt_a: 'Indira Gandhi',
-        opt_b: 'Mother Teresa',
-        opt_c: 'Aruna Asaf Ali',
-        opt_d: 'M. S. Subbulakshmi',
+        question: "Which was the first Color movie in India?",
+        opt_a: ' Kisan Kanya',
+        opt_b: 'Alam Ara',
+        opt_c: 'Raja Harishchandra',
+        opt_d: 'None of these',
         rightAnswer: 'opt_a'
     },
     {
-        question: "Which state is also known as the “fruit bowl” of India?",
-        opt_a: 'Uttrakhand',
-        opt_b: 'Maharashtra',
-        opt_c: 'Himachal Pradesh',
-        opt_d: 'Andhra Pradesh',
+        question: " Which Hindi movie got the first National Award?",
+        opt_a: 'Shree 420',
+        opt_b: 'Jagriti',
+        opt_c: 'Mirza Ghalib',
+        opt_d: 'None of these',
+        rightAnswer: 'opt_c'
+    },
+    {
+        question: "Which was the first film to win the Filmfare Best Film Award?",
+        opt_a: 'Boot Polish',
+        opt_b: 'Jagriti',
+        opt_c: 'Do Bigha Zamin',
+        opt_d: 'None of these',
+        rightAnswer: 'opt_c'
+    },
+    {
+        question: "Which was the first Indian movie nominated for Oscar?",
+        opt_a: 'Salaam Bombay',
+        opt_b: 'Lagaan',
+        opt_c: 'Mother India',
+        opt_d: 'None of these',
+        rightAnswer: 'opt_c'
+    },
+    {
+        question: "Which was the first Indian movie to win an Oscar?",
+        opt_a: 'Slumdog Millionaire',
+        opt_b: 'Mother India',
+        opt_c: 'Gandhi',
+        opt_d: 'None of these',
         rightAnswer: 'opt_c'
     },
 ];
@@ -167,20 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
  *  then call the function to show the question based upon the level of 
  *  difficulty selected by the user. 
  */
-function runQuiz(level) {
-    if (level === 'easy') {
-        let easyQuestion = easyQuest[currentQuestionIndex];
-        displayQuestion(easyQuestion);
-    } else if (level === 'medium') {
-        let mediumQuestion = mediumQuest[currentQuestionIndex];
-        displayQuestion(mediumQuestion);
-    } else if (level === 'hard') {
-        let hardQuestion = hardQuest[currentQuestionIndex];
-        displayQuestion(hardQuestion);
-    } else {
-        alert("You have not selected any difficulty level.");
-    }
-}
+
 
 /** 
  * Function to display the question and available options 
